@@ -19,11 +19,11 @@ This adds a single CSS variable which can be changed in the current theme config
 | Property                                 | Description                                                                                                                                                     | Default           |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
 | `iron-overlay-backdrop-filter`           | Backdrop filter                                                                                                                                                 | `blur(10px)`      |
-| `iron-overlay-backdrop-background-color` | Backdrop background color. Use `rgba` so that the background is see-through.                                                                                    | `rgba(0,0,0,0.6)` |
+| `iron-overlay-backdrop-background-color` | Backdrop background color. Use `rgba` so that the background is see-through.                                                                                    | `rgba(0,0,0,0.25)` |
 | `iron-overlay-backdrop-opacity`          | Backdrop opacity. This differs from using `rgba` on the background-color in that is actually makes the entire blur less opaque. This can create a foggy effect. | `1`               |
 
 ## Example Theme Config
 ```yaml
   iron-overlay-backdrop-filter: 'blur(10px) grayscale(50%)'
-  iron-overlay-backdrop-background-color: 'rgba(41,128,185,0.6)'
+  iron-overlay-backdrop-background-color: 'rgba(41,128,185,0.25)'
 ```

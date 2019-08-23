@@ -5,7 +5,7 @@ document.head.appendChild(style);
 style.sheet.insertRule(`
     :root {
         --iron-overlay-backdrop-opacity: 1;
-        --iron-overlay-backdrop-background-color: rgba(0,0,0,.6);
+        --iron-overlay-backdrop-background-color: rgba(0,0,0,.25);
     }
     `, 0);
 
