@@ -1,4 +1,9 @@
 # Popup Backdrop Filter
+
+<p align="center">
+    <img src="/screenshot.png" title="Popup Backdrop Filter Screenshot">
+</p>
+
 Add a [backdrop-filter](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) behind the Home Assistant popups.
 
 ## Installation
