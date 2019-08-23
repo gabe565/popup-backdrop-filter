@@ -12,6 +12,7 @@ style.sheet.insertRule(`
 style.sheet.insertRule(`
     iron-overlay-backdrop {
         backdrop-filter: var(--iron-overlay-backdrop-filter, blur(10px));
+        -webkit-backdrop-filter: var(--iron-overlay-backdrop-filter, blur(10px));
     }
     `, 1);
 
