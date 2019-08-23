@@ -1,9 +1,7 @@
-# Popup Backdrop Filter
 Add a [backdrop-filter](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) behind the Home Assistant popups.
 
+{% if installed %}
 ## Installation
-This repo can be added to [HACS](https://github.com/custom-components/hacs) as a plugin.
-
 Then, configured as `type: module` in your Lovelace yaml config.
 ```yaml
 resources:
@@ -27,3 +25,4 @@ This adds a single CSS variable which can be changed in the current theme config
   iron-overlay-backdrop-filter: 'blur(10px) grayscale(50%)'
   iron-overlay-backdrop-background-color: 'rgba(41,128,185,0.25)'
 ```
+{% endif %}
