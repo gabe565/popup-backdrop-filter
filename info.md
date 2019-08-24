@@ -1,5 +1,7 @@
 Add a [backdrop-filter](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) behind the Home Assistant popups.
 
+![Popup Backdrop-Filter Screenshot](https://raw.githubusercontent.com/gabe565/popup-backdrop-filter/master/screenshot.png)
+
 {% if installed %}
 ## Installation
 Then, configured as `type: module` in your Lovelace yaml config.
